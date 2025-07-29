@@ -30,10 +30,13 @@ const interval = setInterval(async function() {
 }, 1000);
 ```
 
-## 解説
+## コード解説
 
 ```
 await mcp9808.setResolution(3);
 ```
-温度の分解能のモード設定を行います。
-
+引数に応じて、温度の分解能を設定します。
+0:  0.5°C       30 ms
+1:  0.25°C      65 ms
+2:  0.125°C     130 ms
+3:  0.0625°C    250 ms

@@ -3,8 +3,7 @@
   Written by Haruka Terai.
 */
 
-import {requestI2CAccess} from "chirimen";
-import MCP9808 from "@chirimen/mcp9808";
+import {requestI2CAccess,MCP9808} from "chirimen";
 
 const i2cAccess = await requestI2CAccess();
 const i2cPort = i2cAccess.ports.get(1);
