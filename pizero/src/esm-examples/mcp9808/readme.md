@@ -56,9 +56,9 @@ await mcp9808.setResolution(3);
 - 本サンプルコードで使用しているドライバ  
 [@chirimen/mcp9808](https://www.jsdelivr.com/package/npm/@chirimen/mcp9808)
 
-- センサーの製品ページ  
+- センサの製品ページ  
 https://www.switch-science.com/products/3986
 
-- センサーの販売元ページ
+- センサの販売元ページ  
 https://www.seeedstudio.com/Grove-I2C-High-Accuracy-Temperature-Sensor-MCP9808.html
 
