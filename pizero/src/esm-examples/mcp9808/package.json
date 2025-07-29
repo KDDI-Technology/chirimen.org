@@ -1,0 +1,17 @@
+{
+  "name": "mcp9808",
+  "version": "1.0.0",
+  "description": "![配線図](./schematic.png \"schematic\")",
+  "license": "MPL-2.0",
+  "author": "Haruka Terai",
+  "type": "module",
+  "main": "main.js",
+  "dependencies": {
+        "node-web-gpio": "latest",
+        "node-web-i2c": "latest",
+        "@chirimen/mcp9808": "latest"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
